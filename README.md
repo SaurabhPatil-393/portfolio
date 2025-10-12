@@ -18,12 +18,14 @@ Welcome to my professional portfolio! This website showcases my skills, projects
   - Projects
   - Certifications
   - Resume
+  - Achievements & Awards
+  - Testimonials
+  - Contact Form
 
 ## 🚀 How to View
 
-1. Clone or download this repository
-2. Open `index.html` in any web browser
-3. Alternatively, you can view it online at the live demo link above
+1. Visit the live demo link above
+2. Alternatively, clone this repository and open `index.html` in any web browser
 
 ## 📁 File Structure
 
