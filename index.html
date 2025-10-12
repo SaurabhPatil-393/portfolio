@@ -237,7 +237,7 @@
             <h2>Resume</h2>
             <div class="resume-content">
                 <p>Download my resume to learn more about my skills, education, and experience.</p>
-                <a href="Resume/Saurabh_Patil_Resume_Modern.pdf" target="_blank" class="btn btn-resume">Download Resume</a>
+                <a href="Resume/Saurabh_Patil_Main_Resume.pdf" target="_blank" class="btn btn-resume">Download Resume</a>
             </div>
         </section>
 
@@ -266,59 +266,9 @@
                     <p class="achievement-date">Sports Day, College</p>
                     <p>Won cricket tournament representing my college in the annual sports day competition</p>
                 </div>
-                <div class="achievement-item">
-                    <h3>College Cricket Team Member</h3>
-                    <p class="achievement-date">Current</p>
-                    <p>Selected as a member of the college cricket team, representing the institution in inter-college tournaments</p>
-                </div>
-                <div class="achievement-item">
-                    <h3>College Kho Kho Team Member</h3>
-                    <p class="achievement-date">Current</p>
-                    <p>Active member of the college kho kho team, participating in inter-college competitions</p>
-                </div>
-                <div class="achievement-item">
-                    <h3>Academic Excellence Award</h3>
-                    <p class="achievement-date">2024</p>
-                    <p>Recognized for outstanding academic performance in MCA DS program with CGPA of 7.75</p>
-                </div>
             </div>
         </section>
 
-        <section id="testimonials">
-            <h2>Testimonials</h2>
-            <div class="testimonials-content">
-                <div class="testimonial-item">
-                    <p class="testimonial-text">"Saurabh demonstrated exceptional problem-solving skills and technical proficiency during his internship. His ability to quickly learn new technologies and apply them to real-world projects was impressive."</p>
-                    <p class="testimonial-author">- Prof. Rahul Sharma, Mentor</p>
-                </div>
-                <div class="testimonial-item">
-                    <p class="testimonial-text">"Working with Saurabh on the hostel management project was a great experience. He showed strong commitment to quality and delivered excellent results."</p>
-                    <p class="testimonial-author">- Project Team Member</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <div class="contact-content">
-                <p>Feel free to reach out to me for collaborations, opportunities, or just to connect!</p>
-                <form id="contact-form" class="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Send Message</button>
-                </form>
-            </div>
-        </section>
     </div>
 
     <footer>
@@ -342,26 +292,6 @@
                 icon.classList.remove('fa-sun');
                 icon.classList.add('fa-moon');
             }
-        });
-        
-        // Contact form handling
-        const contactForm = document.getElementById('contact-form');
-        
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-            // In a real implementation, you would send this data to a server
-            // For now, we'll just show an alert
-            alert(`Thank you for your message, ${name}! I will get back to you soon.`);
-            
-            // Reset form
-            contactForm.reset();
         });
     </script>
 </body>
