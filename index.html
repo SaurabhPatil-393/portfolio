@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Saurabh Patil - MCA DS Student Portfolio. Web Developer with skills in Python, HTML, CSS, JavaScript, and MySQL.">
-    <meta name="keywords" content="Saurabh Patil, Portfolio, Web Developer, Python, HTML, CSS, JavaScript, MySQL, Data Science">
+    <meta name="description" content="Saurabh Patil - MCA DS Student Portfolio. Web Developer with skills in Python, Java, HTML, CSS, JavaScript, and MySQL.">
+    <meta name="keywords" content="Saurabh Patil, Portfolio, Web Developer, Python, Java, HTML, CSS, JavaScript, MySQL, Data Science">
     <meta name="author" content="Saurabh Patil">
     <title>Saurabh Patil - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -14,15 +14,65 @@
 <body>
     <header>
         <div class="container">
-            <div class="theme-toggle">
-                <i class="fas fa-moon"></i>
-            </div>
+            <nav class="navbar">
+                <div class="nav-brand">
+                    <h2>Saurabh Patil</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#soft-skills" class="nav-link">Soft Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificates" class="nav-link">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#connect" class="nav-link">Connect</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#extracurricular" class="nav-link">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#work-together" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
             <!-- Profile image will be added here -->
             <img src="WhatsApp Image 2025-07-02 at 14.16.44_11a5453c.jpg" alt="Saurabh Patil" class="profile-img" onerror="this.src='https://via.placeholder.com/150';">
             <h1>Saurabh Patil</h1>
             <p class="tagline">MCA DS Student | Aspiring Software Developer</p>
         </div>
-    </header>
+    </div>
 
     <div class="container">
         <section id="about">
@@ -47,7 +97,7 @@
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span>India</span>
+                            <span>Pune, Maharashtra, India 411039</span>
                         </div>
                     </div>
                 </div>
@@ -58,38 +108,66 @@
             <h2>Technical Skills</h2>
             <div class="skills-content">
                 <div class="skill-category">
-                    <h3>Programming</h3>
+                    <h3><i class="fas fa-code"></i> Programming</h3>
                     <ul>
-                        <li>Python</li>
-                        <li>C</li>
+                        <li><i class="fas fa-chevron-right"></i> Python</li>
+                        <li><i class="fab fa-java"></i> Java</li>
+                        <li><i class="fas fa-c"></i> C</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Database</h3>
+                    <h3><i class="fas fa-database"></i> Database</h3>
                     <ul>
-                        <li>MySQL (Workbench 8.0 CE)</li>
+                        <li><i class="fas fa-server"></i> MySQL (Workbench 8.0 CE)</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Web Technologies</h3>
+                    <h3><i class="fas fa-globe"></i> Web Technologies</h3>
                     <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                        <li><i class="fab fa-js"></i> JavaScript</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>CS Fundamentals</h3>
+                    <h3><i class="fas fa-laptop-code"></i> CS Fundamentals</h3>
                     <ul>
-                        <li>Data Structures</li>
-                        <li>OOP Concepts</li>
+                        <li><i class="fas fa-sitemap"></i> Data Structures</li>
+                        <li><i class="fas fa-object-group"></i> OOP Concepts</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3>Tools & Platforms</h3>
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
                     <ul>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                        <li>VS Code</li>
+                        <li><i class="fab fa-git-alt"></i> Git</li>
+                        <li><i class="fab fa-github"></i> GitHub</li>
+                        <li><i class="fas fa-code"></i> VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-users"></i> Interpersonal</h3>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> Teamwork</li>
+                        <li><i class="fas fa-comments"></i> Communication</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-heart"></i> Personal Qualities</h3>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> Honesty</li>
+                        <li><i class="fas fa-smile"></i> Positivity</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-lightbulb"></i> Cognitive</h3>
+                    <ul>
+                        <li><i class="fas fa-chevron-right"></i> Problem Solving</li>
                     </ul>
                 </div>
             </div>
@@ -115,8 +193,8 @@
             </div>
         </section>
 
-        <section id="internship">
-            <h2>Internship Experience</h2>
+        <section id="experience">
+            <h2>Experience</h2>
             <div class="internship-content">
                 <div class="internship-item">
                     <h3>Web Development Intern — IndiaTech Softer (Pune, India)</h3>
@@ -154,6 +232,18 @@
                         <p>An online clothing store with features like product listings, shopping cart, user authentication, and admin panel.</p>
                         <p class="tech-stack"><strong>Technologies:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
                         <a href="https://github.com/SaurabhPatil-393/ECOMMERCE-CLOTHING-PROJECT" target="_blank" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Console-based Quiz Game</h3>
+                        <p>An interactive quiz game developed in Python with multiple categories, scoring system, and leaderboard functionality.</p>
+                        <p class="tech-stack"><strong>Technologies:</strong> Python</p>
+                        <a href="https://github.com/SaurabhPatil-393/Console-based-quiz-game-in-Python" target="_blank" class="btn">View on GitHub</a>
                     </div>
                 </div>
             </div>
@@ -238,7 +328,7 @@
             <h2>Resume</h2>
             <div class="resume-content">
                 <p>Download my resume to learn more about my skills, education, and experience.</p>
-                <a href="Resume/Saurabh_Patil_Main_Resume.pdf" target="_blank" class="btn btn-resume">Download Resume</a>
+                <a href="Resume/main resume 2.pdf" target="_blank" class="btn btn-resume">View Resume</a>
             </div>
         </section>
 
@@ -259,14 +349,78 @@
             </div>
         </section>
 
-        <section id="achievements">
-            <h2>Achievements & Awards</h2>
+        <section id="extracurricular">
+            <h2>Extracurricular Activities</h2>
             <div class="achievements-content">
                 <div class="achievement-item">
-                    <h3>Cricket Tournament Winner</h3>
-                    <p class="achievement-date">Sports Day, College</p>
-                    <p>Won cricket tournament representing my college in the annual sports day competition</p>
+                    <h3>Volunteer: Science Week</h3>
+                    <p class="achievement-date">MIT College</p>
+                    <p>Volunteered during the Science Week event, contributing to the organization and execution of various scientific activities.</p>
                 </div>
+                <div class="achievement-item">
+                    <h3>Coordinator: Sci-Fari Technical Event</h3>
+                    <p class="achievement-date">MIT College</p>
+                    <p>Served as coordinator for the Sci-Fari technical event, managing logistics and ensuring smooth execution of the event.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>Winner: Kshitij Cricket Tournament</h3>
+                    <p class="achievement-date">Sports Day, College</p>
+                    <p>Won the cricket tournament representing my college in the annual Kshitij sports day competition.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="work-together">
+            <h2>Let's Work Together</h2>
+            <div class="work-together-content">
+                <p>Feel free to reach out for collaboration or opportunities! I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contact-options">
+                    <div class="contact-method">
+                        <h3>Direct Contact</h3>
+                        <p>For immediate response, you can reach me directly via:</p>
+                        <ul class="contact-list">
+                            <li><i class="fas fa-envelope"></i> saurabhpatilep@gmail.com</li>
+                            <li><i class="fas fa-envelope"></i> saurabhpatil392003@gmail.com</li>
+                            <li><i class="fas fa-phone"></i> +91 876763326</li>
+                        </ul>
+                    </div>
+                    <div class="contact-method">
+                        <h3>Professional Platforms</h3>
+                        <p>Connect with me on professional networks:</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/saurabh-patil-3aa23b286" target="_blank" class="social-link linkedin">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                            <a href="https://github.com/SaurabhPatil-393" target="_blank" class="social-link github">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="or-divider">
+                    <span>OR</span>
+                </div>
+                <form id="contact-form" class="classic-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email address" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Please provide details about your inquiry..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-classic">Send Message</button>
+                </form>
             </div>
         </section>
 
@@ -294,6 +448,43 @@
                 icon.classList.add('fa-moon');
             }
         });
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Form submission handling
+        const contactForm = document.getElementById('contact-form');
+        
+        if (contactForm) {
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form data
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const subject = document.getElementById('subject').value;
+                const message = document.getElementById('message').value;
+                
+                // In a real implementation, you would send this data to a server
+                // For now, we'll show an alert and reset the form
+                alert(`Thank you for your message, ${name}! I'll get back to you soon.\n\nSubject: ${subject}\nMessage: ${message.substring(0, 50)}...`);
+                
+                // Reset form
+                contactForm.reset();
+            });
+        }
     </script>
 </body>
 </html>
