@@ -1658,3 +1658,25 @@ footer p i {
         font-size: 0.7rem;
     }
 }
+
+/* Mobile-specific fixes for GitHub Pages deployment */
+@media (max-width: 768px) {
+    .work-together-content {
+        padding: 0 10px;
+    }
+    
+    .contact-options {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .contact-method .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .contact-method .social-links .social-link {
+        margin: 5px;
+        min-width: 110px;
+    }
+}
